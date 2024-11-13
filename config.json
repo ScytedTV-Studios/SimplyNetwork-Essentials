@@ -1,0 +1,46 @@
+{
+	"type": "minecraftBedrock",
+	"name": "SimplyNetwork Essentials",
+	"namespace": "simplynetwork",
+	"authors": [
+		"SimplyNetwork powered by ScytedTV Studios"
+	],
+	"targetVersion": "1.21.40",
+	"description": "ScytedTV Studios' SimplyNetwork Essentials Add-On for managing SimplyNetwork's main functionalities.",
+	"experimentalGameplay": {
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"focusTargetCamera": true,
+		"dataDrivenJigsawStructures": true,
+		"aimAssist": true,
+		"educationEdition": true
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "SimplyNetwork Essentials"
+				}
+			]
+		]
+	}
+}

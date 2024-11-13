@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"SimplyNetwork powered by ScytedTV Studios"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.41"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "SimplyNetwork Essentials",
+		"description": "ScytedTV Studios' SimplyNetwork Essentials Add-On for managing SimplyNetwork's main functionalities.",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "7433b9a6-05ba-4b5d-9f74-05ad84a7eec5",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "7160f254-e118-48ee-abc5-a421825fb7f8",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "fb8b9e4a-db35-4c72-943e-47e2bea09ffb",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
