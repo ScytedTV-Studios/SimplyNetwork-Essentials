@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "simplynetwork:white_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stone"
+			}
+		},
+		"components": {}
+	}
+}

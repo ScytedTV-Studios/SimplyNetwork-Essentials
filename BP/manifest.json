@@ -37,6 +37,40 @@
 				0,
 				0
 			]
+		},
+		{
+			"description": "Scripts Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "edc0d516-3a4e-4245-a387-759494846411",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "UI Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/ui.js",
+			"uuid": "49a297b6-4387-44df-a873-c8c7cf0cc853",
+			"version": [
+				2,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.4.0-beta"
 		}
 	]
 }

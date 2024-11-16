@@ -5,16 +5,16 @@
 	"authors": [
 		"SimplyNetwork powered by ScytedTV Studios"
 	],
-	"targetVersion": "1.21.40",
+	"targetVersion": "1.21.44",
 	"description": "ScytedTV Studios' SimplyNetwork Essentials Add-On for managing SimplyNetwork's main functionalities.",
 	"experimentalGameplay": {
-		"creationOfCustomBiomes": true,
-		"upcomingCreatorFeatures": true,
-		"enableGameTestFramework": true,
-		"focusTargetCamera": true,
-		"dataDrivenJigsawStructures": true,
-		"aimAssist": true,
-		"educationEdition": true
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"focusTargetCamera": false,
+		"dataDrivenJigsawStructures": false,
+		"aimAssist": false,
+		"educationEdition": false
 	},
 	"bdsProject": false,
 	"packs": {

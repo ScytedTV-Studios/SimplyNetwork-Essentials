@@ -1,7 +1,42 @@
 {
-	"format_version": [
-		1,
-		1,
-		0
-	]
+	"simplynetwork:green_barrier": {
+		"sound": "stone",
+		"textures": "simplynetwork_green_barrier"
+	},
+	"simplynetwork:light_blue_barrier": {
+		"sound": "stone",
+		"textures": "simplynetwork_light_blue_barrier"
+	},
+	"simplynetwork:magenta_barrier": {
+		"sound": "stone",
+		"textures": "simplynetwork_magenta_barrier"
+	},
+	"simplynetwork:orange_barrier": {
+		"sound": "stone",
+		"textures": "simplynetwork_orange_barrier"
+	},
+	"simplynetwork:light_blue_planks": {
+		"sound": "stone",
+		"textures": "simplynetwork_light_blue_planks"
+	},
+	"simplynetwork:green_planks": {
+		"sound": "stone",
+		"textures": "simplynetwork_green_planks"
+	},
+	"simplynetwork:magenta_planks": {
+		"sound": "stone",
+		"textures": "simplynetwork_magenta_planks"
+	},
+	"simplynetwork:orange_planks": {
+		"sound": "stone",
+		"textures": "simplynetwork_orange_planks"
+	},
+	"simplynetwork:white_planks": {
+		"sound": "stone",
+		"textures": "simplynetwork_white_planks"
+	},
+	"simplynetwork:white_bricks": {
+		"sound": "stone",
+		"textures": "simplynetwork_white_bricks"
+	}
 }
