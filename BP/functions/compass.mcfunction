@@ -1,1 +1,0 @@
-replaceitem entity @a slot.hotbar 8 compass 1 1 {"minecraft:item_lock":{"mode":"lock_in_slot"}}

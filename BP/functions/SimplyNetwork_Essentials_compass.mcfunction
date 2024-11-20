@@ -1,0 +1,1 @@
+replaceitem entity @a[tag=compasslock] slot.hotbar 8 compass 1 1 {"minecraft:item_lock":{"mode":"lock_in_slot"}}

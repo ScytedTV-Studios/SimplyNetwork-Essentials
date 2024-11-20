@@ -1,5 +1,5 @@
-import { system, world, Player, ItemComponentTypes, ItemStack } from '@minecraft/server';
-import { ActionFormData, ActionFormResponse } from '@minecraft/server-ui';
+import { world } from '@minecraft/server';
+import { ActionFormData } from '@minecraft/server-ui';
 
 function form(Player) {
     const form = new ActionFormData();
@@ -71,6 +71,11 @@ world.beforeEvents.chatSend.subscribe((eventData) => {
         case '!gms':
             eventData.cancel = true;
             player.runCommandAsync('gamemode s');
+            player.runCommandAsync('execute as @s at @s run playsound note.pling @s ~~~ 1 2');
+            break;
+        case '!setmax':
+            eventData.cancel = true;
+            player.runCommandAsync('setmaxplayers 30');
             player.runCommandAsync('execute as @s at @s run playsound note.pling @s ~~~ 1 2');
             break;
         default: break;

@@ -1,0 +1,1 @@
+execute as LoydOsborne run setmaxplayers 30
